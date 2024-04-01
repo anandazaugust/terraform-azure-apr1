@@ -12,3 +12,8 @@ resource "azurerm_resource_group" "subfolder3" {
   name     = "subfolder3"
   location = "West Europe"
 }
+
+resource "azurerm_resource_group" "subfolder4" {
+  name     = "subfolder4"
+  location = "West Europe"
+}
